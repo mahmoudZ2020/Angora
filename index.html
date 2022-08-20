@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Angora - Responsive One Page Parallax Template</title>
+
+        <!-- Favicon -->
+        
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">    `
+    </head>
+
+<body >
+
+
+    
+    <div onclick="myFunction()" id="settingItem" class="settingItem  fixed-top position-absolute text-center d-flex align-content-center align-items-center position-fixed" tabindex="1">
+        <a href="#" title="cogs"><i class="fas fa-cogs"></i></a>
+
+        <div id="displaySlid" class="block-settings-wrapper">
+            <div id="block_settings" class="block_settings">
+                <section id="">
+                    <h3>HEADER STYLE</h3>
+                    <ul>
+                        <li class="header-slide active"><a href="slide.html">Image Slideshow</a><i class="fas fa-check"></i>
+                        </li>
+                        <li class="header-image"><a href="image.html">Single Image</a></li>
+                        <li class="header-video"><a href="video.html">Video Background</a></li>
+                    </ul>
+                    <hr>
+                    <h3>COLORS</h3>
+                    <div class="colorcontainer d-flex align-items-center justify-content-center">
+                    <div class="red color" > </div>
+                    <div class="blue color" ></div>
+                    <div class="green color" ></div>
+                    <div class="turquoise color"></div>
+                    <div class="purple color" ></div>
+                    <div class="orange color" ></div>
+                    <div class="yellow color" ></div>
+                    <div class="grey color" ></div>
+                    </div>
+                </section>        
+                
+            </div>
+        </div>
+
+    </div>
+    
+
+    <!-- Navigation bar -->
+    <header id="header">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black position-fixed">
+        <div class="container">
+
+            <div class="navbar-header" style="height: 25px;">
+
+                <!-- Menu for Tablets / Phones -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="margin-top: 3px;">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+						<img src="images/logo-white.png" data-alt="images/logo/logo-red.png" alt="Angora" data-rjs="2">
+					</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+
+
+
+                <!-- Items -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                    <li class="active"><a href="#intro" >Home</a></li>
+                    <li class=""><a href="#about">About</a></li>
+                    <li class=""><a href="#team" >Team</a></li>
+                    <li><a href="#portfolio" >Projects</a></li>
+                    <li class=""><a href="#services" >Services</a></li>
+                    <li><a href="#blog" >Blog</a></li>
+                    <li class=""><a href="#contact" >Contact</a></li>
+                </ul>
+
+
+                <!-- Social icons -->
+                <div class="navbar-social" style="line-height: 25px;">
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+</header> 
+    <!-- Intro -->
+
+    <section id="intro">
+
+
+        <div class="row">
+
+
+            <div class="col-md-12">
+
+                <div id="carouselintroControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/slideshow-1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block h-50">
+                                    <h1 class="text-white">We build <br> great brands.</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/slideshow-2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block h-50">
+                                    <h1 class="text-white">Advanced in <br> digital works.</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/slideshow-3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block h-50">
+                                    <h1 class="text-white">Focused on <br> strategy.</h1>
+                                </div>
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev prev-btn" type="button" data-bs-target="#carouselintroControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next next-btn" type="button" data-bs-target="#carouselintroControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                </div>
+                <div class="scroll border-white border-1 rounded-pill position-absolute border" >
+                    <a href="#about"><span class="wheel"></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+
+        <!-- Container -->
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center d-flex">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2 data-bigletter="A">About Us</h2>
+                        <hr>
+                        <p>
+                            Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-7 col-xs-12 res-margin">
+
+                    <p>
+                        Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac,
+                        viverra felis.
+                    </p>
+
+                    <p>
+                        Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.
+                    </p>
+
+                    <p>
+                        Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.
+                    </p>
+
+                </div>
+
+                <div class="col-md-5 col-xs-12">
+
+                    <!-- Skills -->
+                    <div class="skills">
+
+                        <!-- Bar 1 -->
+                        <div class="bar">
+                            <div class="progress-heading">
+                                <p class="progress-title">Branding</p>
+                                <div class="progress-value" style="width: 80%; opacity: 1;">80%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-value="80" style="width: 80%; overflow: hidden;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bar 2 -->
+                        <div class="bar">
+                            <div class="progress-heading">
+                                <p class="progress-title">Web Design</p>
+                                <div class="progress-value" style="width: 95%; opacity: 1;">95%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-value="95" style="width: 95%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bar 3 -->
+                        <div class="bar">
+                            <div class="progress-heading">
+                                <p class="progress-title">Graphic Design</p>
+                                <div class="progress-value" style="width: 85%; opacity: 1;">85%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-value="85" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bar 4 -->
+                        <div class="bar">
+                            <div class="progress-heading">
+                                <p class="progress-title">Development</p>
+                                <div class="progress-value" style="width: 70%; opacity: 1;">70%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-value="70" style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Mission -->
+   
+    <!-- Team -->
+    <section id="team">
+
+        <!-- Container -->
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center d-flex">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2 data-bigletter="O">Our Team</h2>
+                        <hr>
+                        <p>
+                            Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Member 1 -->
+                <div class="col-md-3">
+                    <div class="team-member res-margin">
+                        <div class="team-image">
+                            <img src="images/member-1.jpg" alt="">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h5 class="title">Michael Broad</h5>
+                            <span class="position">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="col-md-3">
+                    <div class="team-member res-margin">
+                        <div class="team-image">
+                            <img src="images/member-2.jpg" alt="">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h5 class="title">Jeannette Crow</h5>
+                            <span class="position">CEO Founder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="col-md-3">
+                    <div class="team-member res-margin">
+                        <div class="team-image">
+                            <img src="images/member-3.jpg" alt="">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h5 class="title">Martin Lawrence</h5>
+                            <span class="position">App Developer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <div class="team-image">
+                            <img src="images/member-4.jpg" alt="">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h5 class="title">Isabella Dowson</h5>
+                            <span class="position">Creative Director</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+   
+
+
+    <!-- Info box -->
+    <section class="info-box">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 text-center-xs">
+                    <h3 class="lowercase">Do you have any ideas?</h3>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 pull-right text-center-xs">
+                    <a href="#contact" class="btn btn-default">Contact Us</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-grey">
+
+        <!-- Container -->
+        <div class="container ">
+
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2 data-bigletter="S">Services</h2>
+                        <hr>
+                        <p>
+                            Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim, eget gravida nunc laoreet et. Pellentesque elementum libero enim.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Service 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Responsive Layout</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Modern Design</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fab fa-font-awesome-flag"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Font Awesome Icons</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="empty-30 hidden-xs"></div>
+
+            <div class="row">
+
+                <!-- Service 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="far fa-file-alt"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Ajax Portfolio</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Color Options</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Audio Support</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="empty-30 hidden-xs"></div>
+
+            <div class="row">
+
+                <!-- Service 7 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-file-signature"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Well Documented</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Background Videos</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 icon ">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <div class="col-8 service-text service-single">
+                            <h3>Intro Slider</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+
+        <!-- Container -->
+        <div class="container">
+
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2 data-bigletter="C">Client Reviews</h2>
+                        <hr>
+                        <p>
+                            Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="">
+                    <div class="row">
+                      <div class="col-md-12 ">
+                          <div class="container">
+                          <div id="carouselExampleControls" class="carousel slide  testimonial-carousel" data-bs-ride="carousel">
+      
+                              <div class="carousel-inner " >
+                                <div class="carousel-item active thumbnail">
+                                    <div class="flex-column text-center">
+                                      <img src="images/client-1.png"  class="w-20 rounded-circle " alt="...">
+                                      <h3>Anthony Lee</h3>
+                                      <span>From Initech</span>
+                                      <p><i class="fas fa-quote-left"></i> Nunc accumsan finibus sollicitudin. Integer malesuada purus sapien, sit amet volutpat sem fringilla ut. Proin viverra scelerisque mollis. <i class="fas fa-quote-right"></i></p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="flex-column text-center">
+                                      <img src="images/client-2.png" class="w-20 rounded-circle " alt="...">
+                                      <h3>Jane Doris</h3>
+                                      <span>From Acme</span>
+                                      <p><i class="fas fa-quote-left"></i> Vestibulum lectus massa, volutpat ut tristique nec, volutpat in turpis. In vehicula tempus odio. Nullam enim ligula. <i class="fas fa-quote-right"></i></p>
+                                  </div>                          
+                                  </div>
+                                <div class="carousel-item">
+                                  <div class="flex-column text-center">
+                                      <img src="images/client-3.png" class="w-20 rounded-circle " alt="...">
+                                      <h3>Jonathon Doe</h3>
+                                      <span>From Umbrella</span>
+                                      <p><i class="fas fa-quote-left"></i> Suspendisse non velit lacus. Mauris efficitur lorem a justo semper, ut suscipit ligula malesuada. Donec dui nulla. <i class="fas fa-quote-right"></i></p>
+                                  </div>                          
+                                  </div>
+      
+                                  <div class="carousel-item  thumbnail">
+                                      <div class="flex-column text-center">
+                                        <img src="images/client-4.png"  class="w-20 rounded-circle " alt="...">
+                                        <h3>Shane Catson</h3>
+                                        <span>From Massive</span>
+                                        <p><i class="fas fa-quote-left"></i> Fusce euismod eget nulla a tempus. Pellentesque in varius metus. Fusce iaculis cursus ante, vel vestibulum dui sagittis vitae. <i class="fas fa-quote-right"></i></p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="flex-column text-center">
+                                        <img src="images/client-5.png" class="w-20 rounded-circle " alt="...">
+                                        <h3>Hugh Tace</h3>
+                                        <span>From Capital</span>
+                                        <p><i class="fas fa-quote-left"></i> Nunc accumsan finibus sollicitudin. Integer malesuada purus sapien, sit amet volutpat sem fringilla ut. Proin viverra scelerisque mollis. <i class="fas fa-quote-right"></i></p>
+                                      </div>                          
+                                    </div>
+                                  <div class="carousel-item">
+                                    <div class="flex-column text-center">
+                                        <img src="images/client-6.png" class="w-20 rounded-circle " alt="...">
+                                        <h3>Chris Wort</h3>
+                                        <span>From Sylhost</span>
+                                        <p><i class="fas fa-quote-left"></i> Fusce euismod eget nulla a tempus. Pellentesque in varius metus. Fusce iaculis cursus ante, vel vestibulum dui sagittis vitae. <i class="fas fa-quote-right"></i></p>
+                                      </div>                          
+                                    </div>
+      
+      
+                                  <div class="carousel-item  thumbnail">
+                                    <div class="flex-column text-center">
+                                      <img src="images/client-7.png"  class="w-20 rounded-circle " alt="...">
+                                      <h3>Martin Jack</h3>
+                                      <span>From Hooli</span>
+                                      <p><i class="fas fa-quote-left"></i> Vestibulum lectus massa, volutpat ut tristique nec, volutpat in turpis. In vehicula tempus odio. Nullam enim ligula. <i class="fas fa-quote-right"></i></p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="flex-column text-center">
+                                      <img src="images/client-8.png" class="w-20 rounded-circle " alt="...">
+                                      <h3>David Dowsy</h3>
+                                      <span>From Globex</span>
+                                      <p><i class="fas fa-quote-left"></i> Suspendisse non velit lacus. Mauris efficitur lorem a justo semper, ut suscipit ligula malesuada. Donec dui nulla. <i class="fas fa-quote-right"></i></p>
+                                  </div>                          
+                                  </div>
+                                <div class="carousel-item">
+                                  <div class="flex-column text-center">
+                                      <img src="images/client-9.png" class="w-20 rounded-circle " alt="...">
+                                      <h3>Doglas Kosta</h3>
+                                      <span>From Soylent</span>
+                                      <p><i class="fas fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i class="fas fa-quote-right"></i></p>
+                                  </div>                          
+                                  </div>
+                              </div>
+                              <button class="carousel-control-prev testimonialsprev-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next testimonialsnext-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="bg-grey">
+        <div class="container contact-form">
+
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2 data-bigletter="G">Get In Touch</h2>
+                        <hr>
+                        <p>
+                            Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="contact-form-area">
+
+                <!-- Fields -->
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-6 contact-info res-margin">
+
+                        <h3 class="lowercase">Get answers and advices from professional consultants.</h3>
+
+                        <div class="contact-content clearfix">
+                            <div class="icon icon-basic-map"></div>
+                            <div class="contact-text">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-map"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h4>Address</h4>
+                                        <p>1650 Lombard Street, San Francisco, CA 94123</p>                                    
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+
+                        <div class="contact-content clearfix">
+                            <div class="icon icon-basic-smartphone"></div>
+                            <div class="contact-text">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h4>Phone</h4>
+                                        <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="contact-content clearfix">
+                            <div class="icon icon-basic-mail"></div>
+                            <div class="contact-text">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h4>Say Hello</h4>
+                                        <p><a href="/cdn-cgi/l/email-protection#e4c7"><span class="__cf_email__" data-cfemail="e2878f838b8ea2918b96878c838f87cc818d8f">[email&nbsp;protected]</span></a></p>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+
+                        <div class="contact-form-holder">
+                            <div class="field">
+                                <input type="text" name="name" class="field-name" placeholder="Name">
+                            </div>
+                            <div class="field">
+                                <input type="email" name="email" class="field-email" placeholder="Email">
+                            </div>
+                            <div class="field">
+                                <input type="text" name="phone" class="field-phone" placeholder="Phone">
+                            </div>
+                            <div class="field">
+                                <textarea name="message" class="field-message" placeholder="Message"></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div>
+                                <button type="submit" class="btn btn-default" id="contact-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                            </div>
+                        </div>
+
+                        <!-- Submit Results -->
+                        <div class="contact-form-result">
+                            <h3>Thank You for the Email!</h3>
+                            <p>Your message has already arrived! We'll contact you shortly.</p>
+                            <h5>Good day.</h5>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+
+        <!-- Back to top -->
+        <a class="to-top" href="#header"><i class="fas fa-chevron-up"></i></a>
+
+        <!-- Widgets -->
+        <div class="footer-widgets">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <!-- Footer logo -->
+                        <p class="footer-logo">
+                            <a href="#" title="Angora">
+									<img src="images/icon.png" alt="Angora" data-rjs="2">
+								</a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="empty-30"></div>
+
+                <div class="row">
+
+                    <!-- Contact info -->
+                    <div class="col-md-3 col-sm-6 res-margin">
+                        <div class="widget">
+
+                            <h5>Contact Info</h5>
+
+                            <div class="textwidget">
+                                <p>
+                                    1650 Lombard Street,<br> San Francisco, CA 94123
+                                </p>
+                                <p>
+                                    +1 (415) 876-3250<br>
+                                    <a href="/cdn-cgi/l/email-protection#adc8c0ccc4c1eddec4d9c8c3ccc0c883cec2c0"><span class="__cf_email__" data-cfemail="7a1f171b13163a09130e1f141b171f54191517">[email&nbsp;protected]</span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Useful links -->
+                    <div class="col-md-3 col-sm-6 res-margin">
+                        <div class="widget">
+
+                            <h5>Useful Links</h5>
+
+                            <ul class="footer-menu">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Affiliate Program</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- Recent posts -->
+                    <div class="col-md-3 col-sm-6 res-margin">
+                        <div class="widget">
+
+                            <h5>Recent Posts</h5>
+
+                            <ul class="footer-menu">
+                                <li><a href="blog-post.html">Sunset in Venice</a></li>
+                                <li><a href="blog-post.html">Aerial View of Village</a></li>
+                                <li><a href="blog-post.html">Lighted Concrete City</a></li>
+                                <li><a href="blog-post.html">The Little Ghost</a></li>
+                                <li><a href="blog-post.html">Royal Oats ft. Waldo</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- Tag cloud -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="widget">
+
+                            <h5>Popular Tags</h5>
+
+                            <div class="tags clearfix">
+                                <a href="#" class="tag">HTML5</a>
+                                <a href="#" class="tag">CSS3</a>
+                                <a href="#" class="tag">jQuery</a>
+                                <a href="#" class="tag">UX / UI</a>
+                                <a href="#" class="tag">Web</a>
+                                <a href="#" class="tag">Graphic</a>
+                                <a href="#" class="tag">Design</a>
+                                <a href="#" class="tag">Development</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <!-- Social links -->
+                        <div class="footer-social">
+                            <a href="#" title="Twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                            <a href="#" title="Facebook"><i class="fab fa-facebook-f fa-fw"></i></a>
+                            <a href="#" title="Instagram"><i class="fab fa-instagram fa-fw"></i></a>
+                            <a href="#" title="Dribbble"><i class="fab fa-dribbble fa-fw"></i></a>
+                            <a href="#" title="Pinterest"><i class="fab fa-pinterest fa-fw"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <!-- Text -->
+                        <p class="copyright">
+                           Mahmoud's labs Copyright © 2020 <a href="#" target="_blank">Angora</a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+function myFunction() {
+        var x = document.getElementById("displaySlid");
+        var y = document.getElementById("settingItem");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+            
+        } else {
+          x.style.display = "none";
+          y.offsetLeft.x = 220;
+        }
+      }
+    </script>
+    
+</body>
+</html>
